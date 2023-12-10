@@ -1,24 +1,19 @@
-Práctica Final de Álgebra, Cálculo y Geometría con Python
-=========================================================
+# Práctica Final de Álgebra, Cálculo y Geometría con Python
 
-Descripción
------------
+## Descripción 📝
 
 Este repositorio contiene la práctica final del módulo de Álgebra, Cálculo y Geometría, donde se aplican conceptos matemáticos y habilidades de programación en Python para resolver problemas complejos. La práctica se divide en cinco ejercicios principales, cada uno enfocado en un tema específico.
 
-Archivo Principal
------------------
+## Archivo Principal 📄
 
 *   `Practica.ipynb`: Jupyter Notebook que contiene todos los ejercicios y su desarrollo.
 
-Carpetas Adicionales
---------------------
+## Carpetas Adicionales 📁
 
 *   `images/`: Contiene imágenes utilizadas o generadas durante la práctica.
 *   `data/`: Incluye el archivo CSV utilizado para los ejercicios de análisis de datos.
 
-Contenido Detallado de `Practica.ipynb`
----------------------------------------
+## Contenido Detallado de `Practica.ipynb` 🔍
 
 ### 1\. Multiconjuntos
 
@@ -80,8 +75,7 @@ Contenido Detallado de `Practica.ipynb`
 *   Procesamiento de texto y cálculo de similitudes: `tokeniser()`, `combinations()`, `union()`, `set2vector()`, `cosine_similarity()`.
 
 
-Aprendizajes y Reflexiones
---------------------------
+## Aprendizajes y Reflexiones 🧠
 
 Este reciente módulo ha sido una experiencia integral abarcando desde teoría y práctica con conjuntos hasta conceptos como eigenvectores y tensores. La combinación de temas clave como funciones, límites, derivadas, espacios vectoriales, matrices y regresión lineal, complementada con ejercicios prácticos en Python, ha ofrecido una visión completa y aplicada de las matemáticas.
 
