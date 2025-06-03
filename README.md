@@ -6,18 +6,17 @@ Este repositorio agrupa una serie de ejercicios en Python centrados en **Álgebr
 
 ## Índice
 
-1. [Estructura del Repositorio](#estructura-del-repositorio)
-2. [Requisitos y Configuración](#requisitos-y-configuración)
-3. [Descripción de cada sección](#descripción-de-cada-sección)
-   1. [Manipulación de Multiconjuntos](#manipulación-de-multiconjuntos)
-   2. [Compresión de Imágenes mediante SVD](#compresión-de-imágenes-mediante-svd)
-   3. [Regresión Lineal por Mínimos Cuadrados](#regresión-lineal-por-mínimos-cuadrados)
-   4. [Regresión Lineal mediante Gradient Descent](#regresión-lineal-mediante-gradient-descent)
-   5. [Similitud entre Páginas Web](#similitud-entre-páginas-web)
-4. [Documentación de Funciones](#documentación-de-funciones)
-5. [Resultados y Visualizaciones](#resultados-y-visualizaciones)
-6. [Aprendizaje y Reflexión Personal](#aprendizaje-y-reflexión-personal)
-7. [Ejecución y Reproducción](#ejecución-y-reproducción)
+- [Estructura del Repositorio](#estructura-del-repositorio)
+- [Requisitos y Configuración](#requisitos-y-configuración)
+- [Descripción de cada sección](#descripción-de-cada-sección)
+  - [Manipulación de Multiconjuntos](#manipulación-de-multiconjuntos)
+  - [Compresión de Imágenes mediante SVD](#compresión-de-imágenes-mediante-svd)
+  - [Regresión Lineal por Mínimos Cuadrados](#regresión-lineal-por-mínimos-cuadrados)
+  - [Regresión Lineal mediante Gradient Descent](#regresión-lineal-mediante-gradient-descent)
+  - [Similitud entre Páginas Web](#similitud-entre-páginas-web)
+- [Resultados y Visualizaciones](#resultados-y-visualizaciones)
+- [Aprendizaje y Reflexión Personal](#aprendizaje-y-reflexión-personal)
+- [Ejecución y Reproducción](#ejecución-y-reproducción)
 
 ## Estructura del repositorio
 
@@ -234,36 +233,6 @@ Extraer contenido textual de páginas web mediante web scraping, procesar el tex
    - Función `cosine_similarity(v1: List[int], v2: List[int]) → float`.
    - Pruebas entre distintos pares de URLs y visualización de la matriz de similitud (heatmap con `matplotlib`).
 
-## Documentación de Funciones
-
-En cada bloque de código, las funciones vienen documentadas en formato de docstring estándar:
-
-```python
-def nombre_de_funcion(param1: Tipo, param2: Tipo) -> TipoDevuelto:
-    """
-    Descripción breve de la función.
-
-    Parámetros:
-    ----------
-    param1 : Tipo
-        Explicación de param1.
-    param2 : Tipo
-        Explicación de param2.
-
-    Retorna:
-    -------
-    TipoDevuelto
-        Descripción del valor de retorno.
-    """
-    # Implementación
-```
-
-Estos docstrings permiten:
-
-- Comprender rápidamente qué hace cada función.
-- Saber los tipos esperados y lo que devuelven.
-- Facilitar la generación automática de documentación si se desea exportar a formato HTML o PDF.
-
 ## Resultados y Visualizaciones
 
 - **Sección SVD**:
@@ -286,15 +255,15 @@ Las imágenes generadas se almacenan automáticamente en la carpeta `images/` y 
 
 ## Aprendizaje y Reflexión personal
 
-> A lo largo de este trabajo, he podido profundizar en la relación entre teoría matemática (álgebra lineal, cálculo de errores y medidas de similitud) y su aplicación programática en Python.
->
-> Si bien los conceptos teóricos son complejos, la implementación paso a paso me ha ayudado a reforzar la comprensión de temas como:
->
-> - Procesamiento de datos matriciales (SVD).
-> - Formulación de problemas de optimización (método de mínimos cuadrados vs. Gradient Descent).
-> - Técnicas de web scraping y procesamiento de texto para comparar documentos.
->
-> Además, la documentación cuidadosa de cada función y la presentación de resultados visuales ha mejorado mi capacidad para estructurar proyectos de forma profesional y reproducible.
+A lo largo de este trabajo, he podido profundizar en la relación entre teoría matemática (álgebra lineal, cálculo de errores y medidas de similitud) y su aplicación programática en Python.
+
+Si bien los conceptos teóricos son complejos, la implementación paso a paso me ha ayudado a reforzar la comprensión de temas como:
+
+- Procesamiento de datos matriciales (SVD).
+- Formulación de problemas de optimización (método de mínimos cuadrados vs. Gradient Descent).
+- Técnicas de web scraping y procesamiento de texto para comparar documentos.
+
+Además, la documentación cuidadosa de cada función y la presentación de resultados visuales ha mejorado mi capacidad para estructurar proyectos de forma profesional y reproducible.
 
 ## Ejecución y Reproducción
 
