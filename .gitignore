@@ -1,0 +1,14 @@
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+
+# System files
+.DS_Store
+
+# Virtual environment
+venv/
+
+# Logs
+*.log
